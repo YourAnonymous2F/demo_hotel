@@ -1,0 +1,134 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+header{
+    background: darkslategray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 25px 10px 25px;
+}
+
+.logo{
+    color: white;
+}
+
+.navbar ul{
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+
+.navbar a{
+    text-decoration: none;
+    font-weight: 700;
+    color: white;
+}
+
+.container1{
+    background: grey;
+    height: 300px;
+}
+
+.container1 h1{
+    text-align: center;
+    color: orange;
+    padding: 50px 0 20px 0;
+}
+
+.container1 h1 span{
+    color: white;
+}
+
+.container1 p{
+    text-align: center;
+    padding: 0 13px 10px 13px;
+    line-height: 1.5;
+    color: white;
+}
+
+.box{
+    margin: auto;
+    margin-top: 25px;
+    background: rgb(20, 19, 19);
+    padding: 10px ;
+    width: 120px;
+}
+
+.box a{
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+}
+
+.container2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.history{
+    background: rgb(32, 31, 31);
+}
+
+.history h3{
+    padding: 30px 0 15px 0;
+    text-align: center;
+    color: orange;
+}
+
+.history h3 span{
+    color: white;
+}
+
+.history p{
+    text-align: center;
+    color: white;
+    padding: 0 10px 0 10px;
+    line-height: 1.5;
+}
+
+.container3{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.container3 h4{
+    padding-top: 15px;
+}
+
+.container3 p{
+    padding: 20px 0 10px 0;
+    line-height: 1.5;
+}
+
+.box1, .box2{
+    text-align: center;
+    padding-top: 30px;
+}
+
+.box2{
+    background: orange;
+}
+
+img{
+    width: 100%;
+}
+
+footer{
+    background: rgb(34, 33, 33);
+}
+
+.copy{
+    text-align: center;
+    color: white;
+    font-weight: 400;
+    font-size: 15px;
+    padding: 20px 0 20px 0;
+}
